@@ -7,3 +7,23 @@ output:
 keep_md: true
 ---
 
+```{r}
+library(tidyverse)
+```
+
+# Learning to reference figures
+
+```{r Figref, eval = FALSE}
+x = seq(1:100)
+  y = rnorm(100)
+  
+  dat = data.frame(x, y)
+  
+  ggplot(dat, aes(x = x, y = y)) +
+  geom_line()
+
+```
+
+
+
+this ai s change
